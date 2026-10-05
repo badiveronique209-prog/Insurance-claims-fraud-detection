@@ -5,7 +5,6 @@ quelles caractéristiques distinguent les déclarations frauduleuses des déclar
 Je construis et compare trois modèles de Machine Learning pour prédire le risque de fraude.
 
 ## Ce que j'ai fait
-
 Je suis partie d'un dataset brut de déclarations de sinistres avec des variables
 sur le client, le véhicule, la police d'assurance et les circonstances de l'incident.
 J'ai nettoyé les données, analysé les profils associés à la fraude,
