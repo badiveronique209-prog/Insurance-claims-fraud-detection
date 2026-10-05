@@ -4,8 +4,7 @@ Ce projet analyse des déclarations de sinistres automobiles pour comprendre
 quelles caractéristiques distinguent les déclarations frauduleuses des déclarations normales.
 Je construis et compare trois modèles de Machine Learning pour prédire le risque de fraude.
 
-## Ce que j'ai fait
-
+# Ce que j'ai fait
 Je suis partie d'un dataset brut de déclarations de sinistres avec des variables
 sur le client, le véhicule, la police d'assurance et les circonstances de l'incident.
 J'ai nettoyé les données, analysé les profils associés à la fraude,
@@ -15,8 +14,7 @@ Le pipeline de prétraitement garantit qu'aucune information du jeu de test
 ne contamine l'entraînement : imputation, standardisation et encodage
 sont appris sur le train uniquement.
 
-
-## Résultats
+# Résultats
 
 Les résultats complets apparaissent dans le notebook après exécution sur le dataset réel.
 Certaines variables liées aux montants déclarés, au type d'incident
@@ -27,7 +25,7 @@ Le Recall est la métrique prioritaire dans ce contexte :
 une fraude non détectée représente un coût direct pour la compagnie,
 plus important qu'une fausse alerte sur une déclaration normale.
 
-## Étapes du notebook
+# Étapes du notebook
 
 Chargement et exploration — structure du dataset, valeurs manquantes,
 types de variables, premières observations.
@@ -53,7 +51,7 @@ courbes ROC, matrice de confusion, importance des variables.
 Interprétation métier recommandations pour la compagnie d'assurance,
 limites du modèle, conclusion.
 
-## Stack
+# Stack
 
 Python, pandas, scikit-learn, matplotlib, seaborn
 
